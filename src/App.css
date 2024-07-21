@@ -1,0 +1,98 @@
+.App{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.headerBox{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.background-video {
+    object-fit: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    width: 100%;
+    padding: 12px 24px;
+    background-color: transparent;
+    color: #575756;
+    box-shadow: inset 0px 0px 0px 4px #ddd6e8;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.search::placeholder{
+    color:black;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 2px solid #4F7942;
+    background-color: #dbecc4;
+    padding: 12px 18px 12px 18px;
+    background-color: #8EAD34;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 4px #d6e8e3;
+}
+
+  .btn-text{
+    margin-right: 8px; 
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .btn-image{
+    height: 34px;
+    vertical-align: middle;
+  }
+
+  .list{
+    list-style: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .recipes-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .icon{
+    width: 25px;  
+  }
+
+  .par{
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+  }
